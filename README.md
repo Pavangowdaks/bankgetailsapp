@@ -24,8 +24,11 @@ See bank.csv file. If you prefer a PostgreSQL dump for building a REST service o
 #PostgreSQL tables with IFSC codes of bank branches.
 
 The SQL has two table and one view.
+
 banks - has two columns id and name (e.g. KARNATAKA BANK LIMITED).
+
 branches - has details of all branches. IFSC code is the primary key of this table. Has bankid which is a foreign key reference into banks table.
+
 bankbranches - view on top of these tables that joins on bankid. Convenient if you want to search by bank name.
 
 CREATE TABLE banks (
