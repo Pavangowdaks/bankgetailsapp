@@ -1,6 +1,8 @@
 # BankDetails
 REST Service for getting bank details by IFSC code, BankName and CIty.
 
+Deployed on Heroku: Link: https://bankdetailsapp.herokuapp.com/
+
 GET request: To get the Bank Details  by IFSC code of Bank.
 
 URL : http://localhost:8899/getBankDetailsByIfsc/{IFSC}
