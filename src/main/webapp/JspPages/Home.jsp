@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>Bank Detail APP</title>
 </head>
 <body>
 <form action="getBankDetails">
